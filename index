@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style>
+            .round-button {
+    width: 200px;
+    height: 100px;
+    padding-bottom: 10%;
+    border-radius: 50%;
+    border: 2px solid #f5f5f5;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 0 3px white;
+    margin-left: 180px;
+   
+}
+.round-button:hover {
+    background: #262626;
+}
+.round-button img {
+    display: block;
+    width: 70%;
+    padding: 12%;
+    height: auto;
+}
+.in{
+    display: inline-block;
+}
+.button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.myimg {
+  float: top;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  
+ }
+
+.wrapper {
+  border:1px solid grey;
+  width: 300px;
+  height: 400px;
+  margin-left: 120px;
+}
+.content{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bottomleft{
+     position: absolute;
+    bottom: 8px;
+    left: 10px;
+    font-size: 30px;
+    background-color:transparent;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border-color: orange;
+    display: inline-block;   
+    background-color: orange;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 60px;
+}
+
+li a:hover {
+    background-color:orange;
+}
+</style>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div><img style="margin: 10px;" src="1.png" height="80px" width="300px"></div>
+        <span class="in">    <div  class="round-button">
+                <img src="2.PNG" alt="Home" />
+                </div></span>
+        <span class="in">
+           <div   class="round-button">
+                <img src="3.PNG" alt="Home" />
+           </div></span>
+        <span class="in">   <div  class="round-button">
+                <img src="4.PNG" alt="Home" />
+            </div></span><br>
+            <span class="in"><h1 style="margin-left:190px;">Learn a skill</h1></span>
+            <span class="in"><h1 style="margin-left:220px;">Build Profile</h1></span>
+        <span class="in"><h1 style="margin-left: 220px; ">Get Hired</h1></span>
+    <center><button class="button">Get Started</button></center><br><br><br>
+    <center><h1 style="text-decoration: solid underline orange;">Courses</h1></center>
+    <span class="in">
+     <div class="wrapper">
+  <div class="content"> 
+      <figure class="myimg">
+        <img src="6.jpg" width="300px" height="200px">
+    </figure>
+       <div class="bottomleft">
+          Introduction to<br>
+          Machine Learning
+      </div>
+     
+  </div>
+         The Intro to ML Classification Models<br>
+      course is meant for developers or data<br>
+      scientists(or anybody else)who knows<br>
+      basic python programming and wishes to<br>
+      learn about Machine Learning,with a focus<br>
+      on solving the problem of classification.<br>
+      <h1>Rs.1500/-</h1>
+</div>
+    </span>
+    <span class="in">
+        <div class="wrapper">
+  <div class="content"> 
+      <figure class="myimg">
+        <img src="6.jpg" width="300px" height="200px">
+    </figure>
+       <div class="bottomleft">
+          Introduction to<br>
+          Machine Learning
+      </div>
+     
+  </div>
+         The Intro to ML Classification Models<br>
+      course is meant for developers or data<br>
+      scientists(or anybody else)who knows<br>
+      basic python programming and wishes to<br>
+      learn about Machine Learning,with a focus<br>
+      on solving the problem of classification.<br>
+      <h1>Rs.1500/-</h1>
+</div>
+        
+    </span>
+    <span class="in">
+        <div class="wrapper">
+  <div class="content"> 
+      <figure class="myimg">
+        <img src="6.jpg" width="300px" height="200px">
+    </figure>
+       <div class="bottomleft">
+          Introduction to<br>
+          Machine Learning
+      </div>
+     
+  </div>
+         The Intro to ML Classification Models<br>
+      course is meant for developers or data<br>
+      scientists(or anybody else)who knows<br>
+      basic python programming and wishes to<br>
+      learn about Machine Learning,with a focus<br>
+      on solving the problem of classification.<br>
+      <h1>Rs.1500/-</h1>
+</div>
+        
+    </span><br><br><br>
+    <span class="in">
+        <div class="wrapper">
+  <div class="content"> 
+      <figure class="myimg">
+        <img src="6.jpg" width="300px" height="200px">
+    </figure>
+       <div class="bottomleft">
+          Introduction to<br>
+          Machine Learning
+      </div>
+     
+  </div>
+         The Intro to ML Classification Models<br>
+      course is meant for developers or data<br>
+      scientists(or anybody else)who knows<br>
+      basic python programming and wishes to<br>
+      learn about Machine Learning,with a focus<br>
+      on solving the problem of classification.<br>
+      <h1>Rs.1500/-</h1>
+</div>
+        
+    </span>
+    <span class="in">
+        <div class="wrapper">
+  <div class="content"> 
+      <figure class="myimg">
+        <img src="6.jpg" width="300px" height="200px">
+    </figure>
+       <div class="bottomleft">
+          Introduction to<br>
+          Machine Learning
+      </div>
+     
+  </div>
+         The Intro to ML Classification Models<br>
+      course is meant for developers or data<br>
+      scientists(or anybody else)who knows<br>
+      basic python programming and wishes to<br>
+      learn about Machine Learning,with a focus<br>
+      on solving the problem of classification.<br>
+      <h1>Rs.1500/-</h1>
+</div>
+        
+    </span>
+    <span class="in">
+        <div class="wrapper">
+  <div class="content"> 
+      <figure class="myimg">
+        <img src="6.jpg" width="300px" height="200px">
+    </figure>
+       <div class="bottomleft">
+          Introduction to<br>
+          Machine Learning
+      </div>
+     
+  </div>
+         The Intro to ML Classification Models<br>
+      course is meant for developers or data<br>
+      scientists(or anybody else)who knows<br>
+      basic python programming and wishes to<br>
+      learn about Machine Learning,with a focus<br>
+      on solving the problem of classification.<br>
+      <h1>Rs.1500/-</h1>
+</div>
+        
+    </span><br><br><br>
+    <span class="in">
+        <div class="wrapper">
+  <div class="content"> 
+      <figure class="myimg">
+        <img src="6.jpg" width="300px" height="200px">
+    </figure>
+       <div class="bottomleft">
+          Introduction to<br>
+          Machine Learning
+      </div>
+     
+  </div>
+         The Intro to ML Classification Models<br>
+      course is meant for developers or data<br>
+      scientists(or anybody else)who knows<br>
+      basic python programming and wishes to<br>
+      learn about Machine Learning,with a focus<br>
+      on solving the problem of classification.<br>
+      <h1>Rs.1500/-</h1>
+</div>
+        
+    </span>
+    <span class="in">
+        <div class="wrapper">
+  <div class="content"> 
+      <figure class="myimg">
+        <img src="6.jpg" width="300px" height="200px">
+    </figure>
+       <div class="bottomleft">
+          Introduction to<br>
+          Machine Learning
+      </div>
+     
+  </div>
+         The Intro to ML Classification Models<br>
+      course is meant for developers or data<br>
+      scientists(or anybody else)who knows<br>
+      basic python programming and wishes to<br>
+      learn about Machine Learning,with a focus<br>
+      on solving the problem of classification.<br>
+      <h1>Rs.1500/-</h1>
+</div>
+        
+    </span>
+    <span class="in">
+        <div class="wrapper">
+  <div class="content"> 
+      <figure class="myimg">
+        <img src="6.jpg" width="300px" height="200px">
+    </figure>
+       <div class="bottomleft">
+          Introduction to<br>
+          Machine Learning
+      </div>
+     
+  </div>
+         The Intro to ML Classification Models<br>
+      course is meant for developers or data<br>
+      scientists(or anybody else)who knows<br>
+      basic python programming and wishes to<br>
+      learn about Machine Learning,with a focus<br>
+      on solving the problem of classification.<br>
+      <h1>Rs.1500/-</h1>
+</div>
+        
+    </span>
+    <br><br><br>
+    <center><h2>View all</h2></center><br>
+    <center><h1 style="text-decoration: underline orange;">Trusted By</h1></center><br>
+    <center><img src="7.PNG"></center><br><br>
+    <center><h1 style="text-decoration: underline orange;">Testimonials</h1></center><br><br>
+    <span class="in"><img src="10.png" width="150px" style="margin-left: 300px;"></span>
+    <span class="in" style="margin-left:50px; font-size: 20px;">
+        It helps me a lot to think very creative to obtain an answer.I<br>
+        got an offer from Symantec and I am really very happy to be<br>
+        the part of guvi<br><br>
+        <strong>Nanda</strong>-Software Engineer-Symantec
+    </span><br><br><br>
+    <center>
+        <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+    </center><br><br><br>
+    <span class="in">
+    <ul>
+  <li><a class="active" href="">About us</a></li>
+  <li><a href="">Contact</a></li>
+  <li><a href="">Career</a></li>
+  <li><a href="">Team</a></li>
+  <li><a href="">Jobs</a></li>
+  <li><a href="">T&C</a></li>
+</ul>
+    </span>
+    <span class="in" style="float: right;">
+        Copyright &copy; 2016 GUVI
+    </span>
+    </body>
+</html>
